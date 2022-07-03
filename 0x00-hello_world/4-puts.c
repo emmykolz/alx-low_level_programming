@@ -1,7 +1,6 @@
 #include <stdio.h>
-
 /**
- * main - This is my put funtion 
+ * main - This is my put function
  * Return: 0
  */
 int main(void)
