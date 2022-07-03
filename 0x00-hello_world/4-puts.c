@@ -1,8 +1,9 @@
 #include <stdio.h>
 
 /**
- * This is my put funtion
- * second line
+ * main - This is my put funtion
+ * 
+ * Return: 0
  */
 
 int main(void)
