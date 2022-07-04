@@ -13,7 +13,7 @@ int main(void)
 		putchar(digit % 10 + '0');
 
 	for (letter = 'a'; letter <= 'f'; letter++)
-		putchar(letter);	}
+		putchar(letter);
 	
 	putchar('\n');
 
