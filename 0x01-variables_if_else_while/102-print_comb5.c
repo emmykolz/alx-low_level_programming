@@ -9,9 +9,9 @@ int main(void)
 	int first;
 	int second;
 
-	for (first = 0; first <= 100; first++)
+	for (first = 0; first < 100; first++)
 	{
-		for (second = 0; second <= 100; second++)
+		for (second = 0; second < 100; second++)
 		{
 			if (second > first)
 			{
