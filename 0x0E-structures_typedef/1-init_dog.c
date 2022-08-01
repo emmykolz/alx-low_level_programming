@@ -1,7 +1,6 @@
 #include "dog.h"
 
 /**
- *
  * init_dog - Points info from dog.h to main
  *
  * @d: For dereferencing
