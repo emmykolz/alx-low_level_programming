@@ -2,18 +2,17 @@
 
 /**
  * init_dog - Points info from dog.h to main
- *
  * @d: For dereferencing
  * @name: Name of dog
  * @age: Age of dog
  * @owner: Owner of dog
  *
- * Return: Always 0
+ * Return: nothing
  */
 
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
-	if (d != NULL)
+	if (d)
 	{
 		d->name = name;
 		d->age = age;
