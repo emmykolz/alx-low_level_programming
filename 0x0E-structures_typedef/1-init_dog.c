@@ -1,8 +1,9 @@
+#include <stdlib.h>
+#include <stdio.h>
 #include "dog.h"
 
 /**
- *init_dog - inits a variable of
- *type dog
+ *dog - inits a variable of
  *@d: dog identification
  *@name: name of dog
  *@age: age of dog
@@ -11,6 +12,9 @@
 
 struct dog *d(char *name, float age, char *owner)
 {
+  struct dog *d;
+  
+  d = malloc(sizeof(struct dog));
   if (d == NULL)
     return(NULL);
   d->name = name;
