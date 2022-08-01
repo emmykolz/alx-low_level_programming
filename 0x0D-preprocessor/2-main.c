@@ -1,14 +1,10 @@
 #include <stdio.h>
 
 /**
-*
-* main - prints name of file it was compiled from
-*
-*
-*
-* Return: 0
-*
-*/
+ * main - print the file name of the current file
+ *
+ * Return: 0
+ */
 
 int main(void)
 
