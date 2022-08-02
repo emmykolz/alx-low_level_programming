@@ -2,10 +2,12 @@
 #include "dog.h"
 
 /**
- * free_dog - ...
- * @d: ...
+ * free_dog - frees dog
+ * @d: bety
+ * @name: name
+ * @owner: owner
  *
- * Return: ...
+ * Return: nothing
  */
 void free_dog(dog_t *d)
 {
@@ -13,6 +15,6 @@ void free_dog(dog_t *d)
 	{
 		free(d->owner);
 		free(d->name);
-		free(d->age);
+		free(d);
 	}
 }
