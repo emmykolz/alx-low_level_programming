@@ -4,8 +4,8 @@
 /**
  * free_dog - frees dog
  * @d: bety
- * @name: name
- * @owner: owner
+ *
+ *
  *
  * Return: nothing
  */
